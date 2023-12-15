@@ -5,7 +5,7 @@ import React from "react";
 const ClinicPage = () => {
   return (
     <div className="min-h-full lg:flex max-w-full bg-white">
-      <div className="lg:flex justify-center items-center lg:mt-28 ">
+      <div className="lg:flex justify-center items-center lg:mt-32 ">
         <div className="flex  justify-center lg:items-center lg:w-1/2   ">
           <div className=" flex-col xs:w-9/12 justify-center items-center sm:w-4/6 lg:w-3/4 ">
             <h1 className="flex xs:justify-center sm:justify-center lg:justify-start text-4xl xs:text-2xl font-semibold text-blue-900">

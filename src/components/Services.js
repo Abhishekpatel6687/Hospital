@@ -29,8 +29,8 @@ const Services = () => {
   ];
 
   return (
-    <div className="min-h-full max-w-full bg-backgroundHome">
-      <div className="flex justify-center items-center mt-12">
+    <div className="min-h-full max-w-full py-28 bg-backgroundHome">
+      <div className="flex justify-center items-center ">
         <div className="flex-col sm:w-2/3 xs:w-80 lg:w-2/5">
           <h1 className="flex justify-center items-center font-semibold text-3xl">
             Our Services

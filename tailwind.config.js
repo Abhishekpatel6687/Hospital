@@ -8,8 +8,10 @@ module.exports = {
         'primary' : '#007FF4',
         'primaryText' : '#0073FF',
         'orangeText' :'#FF9F6A',
-        'backgroundHome' : ' #f8fdff',
+        'backgroundHome' : '#F8FDFF',
         'backgroundBox' : ' #EBEEFF',
+        'backgroundCart' : '#AED3E2',
+         'backgroundFooter': '#ECF4FF',
 
       },
       screens:{

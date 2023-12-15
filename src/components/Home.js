@@ -2,6 +2,12 @@ import React from "react";
 // import Navbar from "./Navbar";
 import Services from "./Services";
 import ClinicPage from "./ClinicPage";
+import DoctorPage from "./DoctorPage";
+import CustomerPage from "./CustomerPage";
+import Contact from "./Contact";
+import Footer from "./Footer";
+
+
 
 const Home = () => {
   return (
@@ -37,6 +43,10 @@ const Home = () => {
 
       <Services/>
       <ClinicPage />
+      <DoctorPage/>
+      <CustomerPage/>
+      <Contact/>
+      <Footer/>
 
     </main>
   );
