@@ -1,8 +1,17 @@
 import React from "react";
-// import ImageClinic from "./../../images/doctor-woman copy 2.png"
-// import ImageClinic from "./../../images/doctor-woman copy.png"
-// import ImageClinic from "./../../images/doctor-woman.png"
 const ClinicPage = () => {
+  const data = [
+    {
+      id: 1,
+      img: "./../images/doctor-woman.png",
+      name: "Qualified Doctors",
+    },
+    {
+      id: 2,
+      img: "./../images/doctor-woman copy 2.png",
+      name: "24 Hours Service",
+    },
+  ];
   return (
     <div className="min-h-full lg:flex max-w-full bg-white">
       <div className="lg:flex justify-center items-center lg:mt-32 ">
@@ -22,20 +31,32 @@ const ClinicPage = () => {
         </div>
         <div className=" flex  justify-center items-center lg:w-1/2 xs:mt-36 sm:mt-36 lg:mt-16 ">
           <div className="flex-col justify-center items-center w-1/2  ">
-            <div className=" xs:h-36 xs:w-40 h-40 w-48 mb-40 rounded-2xl drop-shadow-2xl  relative   bg-white">
-              <img src="./../images/doctor-woman.png" className=" absolute bottom-20" alt="images" />
-              <p className=" absolute top-24 left-4 xs:left-2">Qualified Doctors</p>
-            </div>
-            <div className="xs:h-36 xs:w-40 h-40 w-48 relative rounded-2xl drop-shadow-2xl bg-white">
-              <img src="./../images/doctor-woman copy 2.png" className="absolute bottom-16" alt="images" />
-              <p className=" absolute left-4 top-24 xs:left-2">24 Hours Service</p>
-            </div>
+            {data.map((item) => {
+              return (
+                <div
+                  key={item.id}
+                  className=" xs:h-36 xs:w-40 h-40 w-48 mb-40 rounded-2xl drop-shadow-2xl  relative   bg-white"
+                >
+                  <img
+                    src={item.img}
+                    className=" absolute bottom-20"
+                    alt="images"
+                  />
+                  <p className=" absolute top-24 left-4 xs:left-2">
+                    {item.name}
+                  </p>
+                </div>
+              );
+            })}
           </div>
-          <div className="  h-1/2 ">
-            <div className="xs:h-36 xs:w-40 h-40 w-48 relative rounded-2xl drop-shadow-2xl bg-white">
-              <img src="./../images/doctor-woman copy.png  " className="absolute bottom-20" alt="images" />
-              <p className=" absolute top-24 left-4 xs:left-2">Emergency Care</p>
-            </div>
+
+          <div className="xs:h-36 xs:w-40 h-40 w-48 relative rounded-2xl drop-shadow-2xl bg-white">
+            <img
+              src="./../images/doctor-woman copy.png  "
+              className="absolute bottom-20"
+              alt="images"
+            />
+            <p className=" absolute top-24 left-4 xs:left-2">Emergency Care</p>
           </div>
         </div>
       </div>
