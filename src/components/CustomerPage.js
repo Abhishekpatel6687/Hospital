@@ -8,7 +8,7 @@ const CustomerPage = () => {
       </h1>
       <div className="  lg:flex justify-center items-center sm:mb-10 ">
         <div className="flex justify-center items-center lg:h-80 lg:w-1/2 ">
-          <div className="lg:flex flex justify-center items-center xs:mb-20 sm:mb-20 lg:mb-0  xs:w-10/12 xs:h-10/12 h-64 w-4/6  lg:h-72 lg:w-10/12 lg:ml-12 relative rounded-2xl drop-shadow-2xl bg-white ">
+          <div className="lg:flex flex justify-center items-center xs:mb-20 sm:mb-20 lg:mb-0  xs:w-10/12 xs:h-10/12 h-64 w-4/6  lg:h-72 lg:w-10/12 lg:ml-14 relative rounded-2xl drop-shadow-2xl bg-white ">
             <img
               src="./../images/group4.png" alt="imgGroup"
               className="absolute h-20 w-20  xs:h-12 xs:w-12 -right-4 -top-4  "
@@ -35,7 +35,7 @@ const CustomerPage = () => {
           </div>
         </div>
         <div className="flex justify-center items-center  lg:h-80 lg:w-1/2 ">
-          <div className="lg:flex flex justify-center items-center xs:w-10/12 xs:h-10/12 h-64 w-4/6  lg:h-72 lg:w-10/12 lg:mr-12 relative rounded-2xl drop-shadow-2xl bg-white ">
+          <div className="lg:flex flex justify-center items-center xs:w-10/12 xs:h-10/12 h-64 w-4/6  lg:h-72 lg:w-10/12 lg:mr-14 relative rounded-2xl drop-shadow-2xl bg-white ">
             <img
               src="./../images/group4.png" alt="imgGroup"
               className="absolute h-20 w-20  xs:h-12 xs:w-12 -right-4 -top-4  "

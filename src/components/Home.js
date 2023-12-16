@@ -1,5 +1,5 @@
 import React from "react";
-// import Navbar from "./Navbar";
+import Navbar from "./Navbar";
 import Services from "./Services";
 import ClinicPage from "./ClinicPage";
 import DoctorPage from "./DoctorPage";
@@ -10,8 +10,8 @@ import Footer from "./Footer";
 const Home = () => {
   return (
     <main className="min-h-full max-w-full bg-backgroundHome ">
-      {/* <Navbar /> */}
-      <div className="md:flex justify-center items-center">
+      <Navbar />
+      <div className="md:flex justify-center mt-12 items-center">
         <div className="flex-col justify-center items-center md:w-1/2 p-18 md:p-10 ">
           <div className="ml-12 w-5/6 h-80 ">
             <p className="font-bold">Welcome to MediCare+ Clinic</p>

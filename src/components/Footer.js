@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "./Navbar";
 
 const Footer = () => {
   const img = [
@@ -17,7 +18,7 @@ const Footer = () => {
   ];
   return (
     <div className="min-h-full max-w-full  bg-backgroundHome">
-      {/* <Navbar/> */}
+      <Navbar/>
       <div className="bg-backgroundFooter">
         <div className="h-96 flex-col xs:ml-6 ml-20 justify-center pt-20 items-center ">
           <div className=" flex justify-start gap-6 items-center  h-32 w-9/12 ">

@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div className="min-h-full max-w-full  bg-backgroundHome">
       <div className="flex justify-center items-center py-24 ">
-        <div className=" flex justify-center items-center xs:w-11/12 sm:w-3/4 xs:h-56 sm:h-72 md:h-80 rounded-2xl bg-primary">
+        <div className=" flex justify-center items-center xs:w-11/12 sm:w-5/6 xs:h-56 sm:h-72 md:h-80 rounded-2xl bg-primary">
           <div className=" flex-col flex  items-center text-white xs:h-44 sm:h-56 xs:w-11/12 sm:w-11/12 md:w-5/6 lg:w-4/6  ">
             <div className="h-28 sm:w-11/12 md:w-5/6 ">
               <h1 className="font-semibold xs:text-2xl sm:text-4xl">
