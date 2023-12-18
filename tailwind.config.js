@@ -11,7 +11,10 @@ module.exports = {
         'backgroundHome' : '#F8FDFF',
         'backgroundBox' : ' #EBEEFF',
         'backgroundCart' : '#AED3E2',
-         'backgroundFooter': '#ECF4FF',
+        'backgroundFooter': '#ECF4FF',
+        'h1Color' : '#003B79',
+        'pColor' : '#002348',
+        'footColor' :'#667C94',
 
       },
       screens:{

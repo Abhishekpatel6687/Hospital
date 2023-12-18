@@ -32,7 +32,7 @@ const Navbar = () => {
         </div>
 
         <ul
-          className={`md:flex md:items-center md:pb-0 pb-12 lg:mx-16 bg-white left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
+          className={`md:flex md:items-center md:pb-0 pb-12 lg:mx-16  bg-white left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
             open ? "top-20 " : "top-[-490px]"
           }`}
         >
@@ -40,13 +40,13 @@ const Navbar = () => {
             <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7">
               <a
                 href={link.link}
-                className="text-gray-800 hover:text-gray-400 duration-500"
+                className="text-primaryText hover:font-bold duration-500"
               >
                 {link.name}
               </a>
             </li>
           ))}
-          <button className="bg-primary text-white ml-16 w-32 px-4 py-2 rounded-3xl">
+          <button className="bg-primary font-semibold text-white ml-16 w-32 px-4 py-2 rounded-3xl">
             Contact
           </button>
         </ul>

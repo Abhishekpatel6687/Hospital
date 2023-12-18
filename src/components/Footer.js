@@ -37,7 +37,7 @@ const Footer = () => {
               );
             })}
           </div>
-          <p className=" font-semibold sm:text-xl">©2020 PodPayment - 2020</p>
+          <p className=" font-semibold sm:text-xl text-footColor">©2020 PodPayment - 2020</p>
         </div>
       </div>
     </div>

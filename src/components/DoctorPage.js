@@ -28,10 +28,10 @@ const DoctorPage = () => {
     <div className="min-h-full max-w-full xs:pb-20 sm:pb-32 xs:pt-12 sm:pt-20 bg-backgroundHome">
       <div className="flex justify-center items-center ">
         <div className="flex-col sm:w-2/3 xs:w-80 lg:w-2/5">
-          <h1 className="flex justify-center items-center font-semibold xs:text-2xl text-3xl">
+          <h1 className="flex justify-center items-center font-semibold xs:text-2xl text-3xl text-h1Color">
             We Have The Best Specialist
           </h1>
-          <p className="flex justify-center items-center text-center mt-6">
+          <p className="flex justify-center items-center text-center mt-6 text-pColor">
             We have a wide experience in experience design and strategy, with
             locally-rooted knowledge.
           </p>
@@ -43,7 +43,7 @@ const DoctorPage = () => {
             className="w-full flex justify-center items-center my-20"
             key={item.id}
           >
-            <div className="group cursor-pointer h-80  w-56 drop-shadow-2xl rounded-2xl bg-white ">
+            <div className="group cursor-pointer h-80  w-56 drop-shadow-2xl rounded-2xl bg-white text-pColor ">
               <div className=" h-56  rounded-t-2xl bg-backgroundCart"></div>
               <h1 className="ml-6 mt-2 font-bold text-xl">{item.name}</h1>
               <p className="ml-6 mt-2">{item.category}</p>

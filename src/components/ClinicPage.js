@@ -17,10 +17,10 @@ const ClinicPage = () => {
       <div className="lg:flex justify-center items-center  pt-12 ">
         <div className="flex  lg:justify-start justify-center lg:items-center lg:w-1/2   ">
           <div className=" flex-col xs:w-9/12 justify-center items-center sm:w-4/6 lg:w-3/4 ">
-            <h1 className="flex xs:justify-center sm:justify-center lg:justify-start text-4xl xs:text-2xl font-semibold text-blue-900">
+            <h1 className="flex xs:justify-center sm:justify-center lg:justify-start text-4xl xs:text-2xl font-semibold text-h1Color">
               Clinic With Innovative
             </h1>
-            <p className=" mt-6 ">
+            <p className=" mt-6 text-pColor ">
               We provide the most full medical services, so every person could
               heave the oppurtunity to receive qualitative medical help.
             </p>
@@ -40,7 +40,7 @@ const ClinicPage = () => {
                       className=" absolute bottom-20"
                       alt="images"
                     />
-                    <p className=" absolute top-24 left-4 xs:left-2">
+                    <p className=" text-pColor absolute top-24 left-4 xs:left-2">
                       {item.name}
                     </p>
                   </div>

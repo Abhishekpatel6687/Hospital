@@ -14,20 +14,20 @@ const Home = () => {
       <div className="md:flex justify-center mt-12 items-center">
         <div className="flex-col justify-center items-center md:w-1/2 p-18 md:p-10 ">
           <div className="ml-12 w-5/6 h-80 ">
-            <p className="font-bold">Welcome to MediCare+ Clinic</p>
-            <h1 className="font-bold mt-6 text-4xl  md:text-5xl">
+            <p className="font-bold text-pColor">Welcome to MediCare+ Clinic</p>
+            <h1 className="font-bold mt-6 text-4xl md:text-5xl text-h1Color">
               Best Specialists
             </h1>
-            <p className="  text-base font-normal mt-8">
+            <p className="  text-base font-normal mt-8 text-pColor">
               We are on the leading edge of cancer care. Providing the full
               continuum of cancer treatments and supportive care services in a
               single convenient location.
             </p>
             <div className="flex w-70 gap-8 mt-9 	">
-              <button className="bg-primary sm:p-2 p-1 w-52   rounded-3xl text-white">
+              <button className=" font-semibold bg-primary sm:p-2 p-1 w-52 hover:bg-white hover:text-primary   rounded-3xl text-white">
                 Make an Appointment
               </button>
-              <button className="bg-white p-2 w-52  rounded-3xl text-primary-700 ">
+              <button className=" font-semibold bg-primary p-2 w-52  rounded-3xl text-white hover:bg-white hover:text-primary">
                 Departments
               </button>
             </div>

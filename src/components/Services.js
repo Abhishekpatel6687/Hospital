@@ -32,10 +32,10 @@ const Services = () => {
     <div className="min-h-full max-w-full pt-20 pb-6 bg-backgroundHome">
       <div className="flex justify-center items-center ">
         <div className="flex-col sm:w-2/3 xs:w-80 lg:w-2/5">
-          <h1 className="flex justify-center items-center font-semibold text-3xl">
+          <h1 className="flex justify-center items-center font-semibold text-3xl text-h1Color">
             Our Services
           </h1>
-          <p className="flex justify-center items-center text-center mt-6">
+          <p className="flex justify-center items-center text-center mt-6 text-pColor">
             We provide the most full medical services, so every person could
             have the opportunity to receive qualitative medical help.
           </p>
@@ -47,7 +47,7 @@ const Services = () => {
             className="w-full flex justify-center items-center my-20"
             key={item.id}
           >
-            <div className="group cursor-pointer h-64 w-56 drop-shadow-2xl rounded-2xl bg-white custom-hover-bg hover:bg-primary custom-hover-text hover:text-white duration-500 hover:scale-y-110 hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] hover:shadow-blue-400/100">
+            <div className="group cursor-pointer h-64 w-56 drop-shadow-2xl rounded-2xl text-pColor bg-white custom-hover-bg hover:bg-primary custom-hover-text hover:text-white duration-500 hover:scale-y-110 hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] hover:shadow-blue-400/100">
               <img
                 src={item.image}
                 alt={item.name}
