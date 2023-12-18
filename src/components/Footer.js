@@ -31,7 +31,7 @@ const Footer = () => {
                   <img
                     src={item.image}
                     alt="icon"
-                    className="xs:h-5 xs:w-4 h-6 w-5"
+                    className="xs:h-5 h-6 "
                   />
                 </div>
               );

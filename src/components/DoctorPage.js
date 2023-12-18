@@ -25,7 +25,7 @@ const DoctorPage = () => {
   ];
 
   return (
-    <div className="min-h-full max-w-full xs:py-20 sm:py-32 bg-backgroundHome">
+    <div className="min-h-full max-w-full xs:pb-20 sm:pb-32 xs:pt-12 sm:pt-20 bg-backgroundHome">
       <div className="flex justify-center items-center ">
         <div className="flex-col sm:w-2/3 xs:w-80 lg:w-2/5">
           <h1 className="flex justify-center items-center font-semibold xs:text-2xl text-3xl">
